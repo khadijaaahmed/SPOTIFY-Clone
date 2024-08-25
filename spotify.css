@@ -1,0 +1,280 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    overflow:hidden;
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+    margin:0.5rem;
+    margin-top:2rem;
+   
+}
+.main{
+    display:flex;
+    height:100vh;
+}
+.side-bar{
+    background-color:black;
+    width:340px;
+    border-radius: 1rem;/*16px*/
+    height:100%;
+    margin-right: 0.5rem;
+    margin-left:0.5rem;
+}
+.main-content{
+    background-color:black;
+    flex:1;
+    border-radius: 1rem;
+    overflow: auto;
+    
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+.nav{
+    display:flex ;
+    background-color:rgb(32, 31, 31);
+    border-radius: 1rem;
+    flex-direction: column;
+    height:112px;
+    justify-content: center;
+    padding:0.5rem 0.75rem;
+}
+.nav-option{
+    opacity: 0.7;
+    line-height:2.5rem;
+    
+}
+.nav-option i {
+   font-size:1.25rem;
+}
+.nav-option a {
+  font-size: 1rem;
+  margin-left:1rem;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.library{
+    background-color:rgb(32, 31, 31);
+    margin-top: 0.5rem;
+    height: 100%;
+    border-radius: 1rem;
+    width:340px;
+}
+.div1{
+    display:flex;
+    justify-content:space-between ;
+    justify-items: center;
+    
+}
+.lib-icons{
+    margin-right:1rem;
+}
+.box1{
+    background-color:rgb(46, 44, 44); 
+    border-radius:0.5rem ;
+    height:10rem;
+    margin:1.7rem 0.75rem 0;
+    padding:0.75rem 1rem;
+}
+.box-p1{
+    font-size:1rem;
+    font-weight: 500;
+}
+.box-p2{
+    font-size:0.8rem;
+    opacity:0.68;
+}
+.badge1{
+    background-color: #fff;
+    border:none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top:0.5rem;
+    height:2rem;
+    width:fit-content
+}
+.sticky-nav{
+    position:sticky;
+    top:0;
+    background-color:rgb(17, 16, 16); 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.sticky-nav .sticky-left{
+     margin-left:1rem;
+}
+.sticky-right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:1rem ;
+}
+.sticky-right button{
+    margin:.0.5rem;
+}
+.dark-badge{
+    color:#fff;
+    background-color: #000;
+}
+img{
+   
+    width:100%;
+    border-radius: 0.5rem;
+}
+.cont-1{
+   
+    margin:1rem;
+   display:flex;
+   flex-wrap: wrap;
+   
+}
+h2{
+    margin:0.5rem;
+    margin-left:1rem;
+}
+.card{
+    background-color:rgb(27, 25, 25);  
+    color:#fff;
+    width:200px;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    padding:1rem;
+    margin-left:1rem;
+
+}
+.card-tittle{
+    font-weight:600;
+   margin:0.7rem;
+   
+}
+.card-info{
+    font-weight:0.85rem;
+    opacity: 0.8;
+    margin-left:0.5rem;
+   
+}
+.cont-2{
+    display:flex;
+}
+.footer{
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    border-top:2px solid white;
+    opacity:0.3;
+    height:50%;
+    width:90%;
+    margin-right: 1rem;;
+}
+
+
+.album{
+    width:25%;
+}
+.range{
+    width:25%;
+}
+.player{
+    width:50%;
+}
+.music-player{
+    background-color: black;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:70px;
+    display: flex;
+}
+.controlls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controll-icon{
+    margin-right:3rem;
+    opacity: 0.7;
+}
+.controll-icon:hover{
+    opacity:1;
+}
+.progress-bar1{
+    width:70%;
+    appearance: none;
+         background-color: transparent;
+         cursor:pointer;
+}
+.progress-bar{
+         display:flex;
+         flex-direction: row;
+        
+}
+.progress-bar1::-webkit-slider-runnable-track{
+    background-color:#ddd;
+    height:0.2rem;
+    border-radius:100px;
+}
+.progress-bar1::-webkit-slider-thumb{
+  appearance:none;
+  background-color: #1bd760;
+  width:1rem;
+  height:1rem;
+  border-radius: 50%;
+  margin-top: -6px;
+}
+.album-img{
+      width:15%;
+      margin-bottom:1.3rem;
+}
+.album-icons{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.album-icon{
+    margin-right: 2rem;
+    padding: 0 1rem 0 1rem;
+}
+.album-tittle{
+        font-family: "Square Peg", cursive;
+        font-weight: 600;
+        font-style: normal;     
+}
+.album-info{
+    font-weight: 200;
+    opacity: 0.7;
+}
+.range-icon{
+    display: flex;
+    justify-content:space-evenly ;
+    margin-top: 1.5rem;
+    
+}
+.range-bar{
+    width:30%;
+    appearance: none;
+         background-color: transparent;
+         cursor:pointer;
+}
+.range-bar::-webkit-slider-thumb{
+  appearance:none;
+  background-color:#1bd760 ;
+  width:1rem;
+  height:1rem;
+  border-radius: 50%;
+  margin-top: -6px;
+}
+.range-bar::-webkit-slider-runnable-track{
+    background-color:#ddd;
+    height:0.2rem;
+    border-radius:100px;
+}
